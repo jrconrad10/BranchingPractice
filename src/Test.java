@@ -9,10 +9,14 @@ public class Test {
 		if(answer.equalsIgnoreCase("yes"))
 		{
 			System.out.println("Disgusting.");
+			System.out.println("What is your favorite type of pizza?");
+			String favPizza = input.nextLine();
 		}
 		else if(answer.equalsIgnoreCase("no"))
 		{
 			System.out.println("That is the right answer.");
+			System.out.println("What is your favorite type of pizza?");
+			String favPizza = input.nextLine();
 		}
 		else System.out.println("You did not input yes or no");
 	}
