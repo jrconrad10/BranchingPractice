@@ -6,11 +6,11 @@ public class Test {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Does pineapple belong on pizza?");
 		String answer = input.nextLine();
-		if(answer.equals("yes"))
+		if(answer.equalsIgnoreCase("yes"))
 		{
 			System.out.println("Disgusting.");
 		}
-		else if(answer.equals("no"))
+		else if(answer.equalsIgnoreCase("no"))
 		{
 			System.out.println("That is the right answer.");
 		}
