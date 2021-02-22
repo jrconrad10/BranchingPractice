@@ -11,11 +11,11 @@ public class Test {
 			System.out.println("Disgusting");
 			System.out.println("What is your favorite type of pizza?");
 			String favPizza = input.nextLine();
-			if(favPizza.equalsIgnoreCase("meatball"))
+			if(favPizza.equalsIgnoreCase("meatball") || favPizza.equalsIgnoreCase("meatball pizza"))
 			{
 				System.out.println("Great minds think alike.");
 			}
-			else if(favPizza.equalsIgnoreCase("pineapple"))
+			else if(favPizza.equalsIgnoreCase("pineapple") || favPizza.equalsIgnoreCase("pineapple pizza"))
 			{
 				System.out.println("Yuck");
 			}
@@ -26,11 +26,11 @@ public class Test {
 			System.out.println("That is the right answer.");
 			System.out.println("What is your favorite type of pizza?");
 			String favPizza = input.nextLine();
-			if(favPizza.equalsIgnoreCase("meatball"))
+			if(favPizza.equalsIgnoreCase("meatball") || favPizza.equalsIgnoreCase("meatball pizza"))
 			{
 				System.out.println("Great minds think alike.");
 			}
-			else if(favPizza.equalsIgnoreCase("pineapple"))
+			else if(favPizza.equalsIgnoreCase("pineapple") || favPizza.equalsIgnoreCase("pineapple pizza"))
 			{
 				System.out.println("You lied!");
 			}
