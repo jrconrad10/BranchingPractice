@@ -30,6 +30,10 @@ public class Test {
 			{
 				System.out.println("Great minds think alike.");
 			}
+			else if(favPizza.equalsIgnoreCase("pineapple"))
+			{
+				System.out.println("You lied!");
+			}
 			else System.out.println("At least it's not pineapple.");
 		}
 		else System.out.println("You did not input yes or no");
