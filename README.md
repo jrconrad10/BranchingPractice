@@ -1,0 +1,1 @@
+This repository is focused around pizza and pineapple pizza in particular. As we all know pineapple should not be on pizza so in the test.java code in this repo it asks the user questions about pineapple pizza and what their favoriote type of pizza is and out puts print statemnts according to the answers given.
