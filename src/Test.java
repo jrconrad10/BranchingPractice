@@ -37,5 +37,7 @@ public class Test {
 			else System.out.println("At least it's not pineapple.");
 		}
 		else System.out.println("You did not input yes or no");
+		
+		System.out.println("Thank you for your input!");
 	}
 }
