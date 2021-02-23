@@ -39,5 +39,6 @@ public class Test {
 		else System.out.println("You did not input yes or no");
 		
 		System.out.println("Thank you for your input!");
+		System.out.println("Have a good day!");
 	}
 }
